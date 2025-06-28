@@ -1,62 +1,68 @@
-import React from 'react';
-import { motion, Variants } from 'framer-motion';
-import { StarIcon } from '@heroicons/react/24/solid';
-import { Swiper, SwiperSlide } from 'swiper/react';
-import { Autoplay, Pagination } from 'swiper/modules';
+import React from "react";
+import { motion, type Variants } from "framer-motion";
+import { StarIcon } from "@heroicons/react/24/solid";
+import { Swiper, SwiperSlide } from "swiper/react";
+import { Autoplay, Pagination } from "swiper/modules";
 
 // Import Swiper styles
-import 'swiper/css';
-import 'swiper/css/pagination';
+import "swiper/css";
+import "swiper/css/pagination";
 
 export const Testimonials: React.FC = () => {
   const testimonials = [
     {
       id: 1,
-      name: 'Sarah Johnson',
-      role: 'Small Business Owner',
-      avatar: '👩‍💼',
+      name: "Sarah Johnson",
+      role: "Small Business Owner",
+      avatar: "👩‍💼",
       rating: 5,
-      comment: 'ParcelDrop has revolutionized how I handle deliveries for my online store. Fast, reliable, and excellent customer service!',
+      comment:
+        "ParcelDrop has revolutionized how I handle deliveries for my online store. Fast, reliable, and excellent customer service!",
     },
     {
       id: 2,
-      name: 'Mike Chen',
-      role: 'Restaurant Manager',
-      avatar: '👨‍🍳',
+      name: "Mike Chen",
+      role: "Restaurant Manager",
+      avatar: "👨‍🍳",
       rating: 5,
-      comment: 'We use ParcelDrop for all our catering deliveries. The real-time tracking gives our customers peace of mind.',
+      comment:
+        "We use ParcelDrop for all our catering deliveries. The real-time tracking gives our customers peace of mind.",
     },
     {
       id: 3,
-      name: 'Emily Rodriguez',
-      role: 'E-commerce Entrepreneur',
-      avatar: '👩‍💻',
+      name: "Emily Rodriguez",
+      role: "E-commerce Entrepreneur",
+      avatar: "👩‍💻",
       rating: 5,
-      comment: 'The API integration was seamless. Our customers love the fast delivery options and tracking features.',
+      comment:
+        "The API integration was seamless. Our customers love the fast delivery options and tracking features.",
     },
     {
       id: 4,
-      name: 'David Thompson',
-      role: 'Corporate Executive',
-      avatar: '👨‍💼',
+      name: "David Thompson",
+      role: "Corporate Executive",
+      avatar: "👨‍💼",
       rating: 5,
-      comment: 'Perfect for urgent business documents. Never had a late delivery. Highly recommend for professional use.',
+      comment:
+        "Perfect for urgent business documents. Never had a late delivery. Highly recommend for professional use.",
     },
     {
       id: 5,
-      name: 'Lisa Park',
-      role: 'Event Planner',
-      avatar: '👩‍🎨',
+      name: "Lisa Park",
+      role: "Event Planner",
+      avatar: "👩‍🎨",
       rating: 5,
-      comment: 'Last-minute event supplies? No problem! ParcelDrop always comes through when we need them most.',
+      comment:
+        "Last-minute event supplies? No problem! ParcelDrop always comes through when we need them most.",
     },
     {
       id: 6,
-      name: 'James Wilson',
-      role: 'Tech Startup Founder',
-      avatar: '👨‍🚀',
+      name: "James Wilson",
+      role: "Tech Startup Founder",
+      avatar: "👨‍🚀",
       rating: 5,
-      comment: 'As a startup, we needed reliable logistics. ParcelDrop scales with us and keeps costs predictable.',
+      comment:
+        "As a startup, we needed reliable logistics. ParcelDrop scales with us and keeps costs predictable.",
     },
   ];
 
@@ -65,9 +71,9 @@ export const Testimonials: React.FC = () => {
     visible: {
       opacity: 1,
       transition: {
-        staggerChildren: 0.2
-      }
-    }
+        staggerChildren: 0.2,
+      },
+    },
   };
 
   const itemVariants: Variants = {
@@ -75,8 +81,8 @@ export const Testimonials: React.FC = () => {
     visible: {
       opacity: 1,
       y: 0,
-      transition: { duration: 0.6 }
-    }
+      transition: { duration: 0.6 },
+    },
   };
 
   return (
@@ -89,17 +95,17 @@ export const Testimonials: React.FC = () => {
           viewport={{ once: true }}
           className="text-center mb-16"
         >
-          <motion.h2 
+          <motion.h2
             variants={itemVariants}
             className="text-4xl md:text-5xl font-bold text-gray-900 mb-6"
           >
             What Our <span className="gradient-text">Customers</span> Say
           </motion.h2>
-          <motion.p 
+          <motion.p
             variants={itemVariants}
             className="text-xl text-gray-600 max-w-3xl mx-auto"
           >
-            Don't just take our word for it. Here's what our satisfied customers 
+            Don't just take our word for it. Here's what our satisfied customers
             have to say about their ParcelDrop experience.
           </motion.p>
         </motion.div>
@@ -113,10 +119,10 @@ export const Testimonials: React.FC = () => {
           className="grid grid-cols-1 md:grid-cols-4 gap-8 mb-16"
         >
           {[
-            { number: '4.9/5', label: 'Average Rating' },
-            { number: '10K+', label: 'Happy Customers' },
-            { number: '99.8%', label: 'Satisfaction Rate' },
-            { number: '24/7', label: 'Customer Support' },
+            { number: "4.9/5", label: "Average Rating" },
+            { number: "10K+", label: "Happy Customers" },
+            { number: "99.8%", label: "Satisfaction Rate" },
+            { number: "24/7", label: "Customer Support" },
           ].map((stat, index) => (
             <div key={index} className="text-center">
               <div className="text-3xl md:text-4xl font-bold text-primary-500 mb-2">
@@ -144,18 +150,14 @@ export const Testimonials: React.FC = () => {
             }}
             pagination={{
               clickable: true,
-              bulletClass: 'swiper-pagination-bullet',
-              bulletActiveClass: 'swiper-pagination-bullet-active',
+              bulletClass: "swiper-pagination-bullet",
+              bulletActiveClass: "swiper-pagination-bullet-active",
             }}
             breakpoints={{
-              640: {
-                slidesPerView: 2,
-              },
-              1024: {
-                slidesPerView: 3,
-              },
+              640: { slidesPerView: 2 },
+              1024: { slidesPerView: 3 },
             }}
-            className="pb-12"
+            className="testimonials-pagination pb-12"
           >
             {testimonials.map((testimonial) => (
               <SwiperSlide key={testimonial.id}>
@@ -196,7 +198,7 @@ export const Testimonials: React.FC = () => {
         </motion.div>
       </div>
 
-      <style jsx>{`
+      {/* <style jsx>{`
         .swiper-pagination-bullet {
           background: #e5e7eb;
           opacity: 1;
@@ -206,7 +208,7 @@ export const Testimonials: React.FC = () => {
         .swiper-pagination-bullet-active {
           background: #1E88E5;
         }
-      `}</style>
+      `}</style> */}
     </section>
   );
 };
