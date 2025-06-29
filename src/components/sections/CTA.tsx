@@ -61,7 +61,7 @@ export const CTA: React.FC<CTAProps> = ({ onGetStarted }) => {
 
           {/* Description */}
           <p className="text-xl md:text-2xl text-white/90 mb-12 max-w-3xl mx-auto leading-relaxed">
-            Join thousands of satisfied customers who trust ParcelDrop 
+            Join thousands of satisfied customers who trust PlecoDelivery 
             for their delivery needs. Start your first delivery today!
           </p>
 

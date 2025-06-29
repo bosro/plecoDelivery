@@ -94,7 +94,7 @@ export const Privacy: React.FC = () => {
               Our Commitment to Your Privacy
             </h2>
             <p className="text-lg text-gray-600 leading-relaxed">
-              At ParcelDrop, we are committed to protecting your privacy and ensuring the security of your personal information. 
+              At PlecoDelivery, we are committed to protecting your privacy and ensuring the security of your personal information. 
               This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you use our 
               delivery service platform.
             </p>
@@ -172,7 +172,7 @@ export const Privacy: React.FC = () => {
               If you have any questions about this Privacy Policy or our data practices, please contact us:
             </p>
             <div className="space-y-2 text-gray-700">
-              <p>Email: privacy@parceldrop.com</p>
+              <p>Email: privacy@PlecoDelivery.com</p>
               <p>Phone: +1 (555) 123-4567</p>
               <p>Address: 123 Delivery Street, Tech City, TC 12345</p>
             </div>

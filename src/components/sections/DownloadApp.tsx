@@ -16,7 +16,7 @@ export const DownloadApp: React.FC = () => {
             className="text-white"
           >
             <h2 className="text-4xl md:text-5xl font-bold mb-6">
-              Download the ParcelDrop App
+              Download the PlecoDelivery App
             </h2>
             <p className="text-xl text-white/90 mb-8 leading-relaxed">
               Get the mobile app and start sending packages with just a few taps. 
@@ -79,7 +79,7 @@ export const DownloadApp: React.FC = () => {
               >
                 <div className="w-full h-full bg-white rounded-2xl overflow-hidden">
                   <div className="bg-primary-500 h-20 flex items-center justify-center">
-                    <span className="text-white font-bold text-lg">ParcelDrop</span>
+                    <span className="text-white font-bold text-lg">PlecoDelivery</span>
                   </div>
                   <div className="p-4 space-y-4">
                     <div className="h-20 bg-gradient-to-r from-blue-100 to-purple-100 rounded-lg"></div>

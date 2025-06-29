@@ -17,7 +17,7 @@ export const Testimonials: React.FC = () => {
       avatar: "👩‍💼",
       rating: 5,
       comment:
-        "ParcelDrop has revolutionized how I handle deliveries for my online store. Fast, reliable, and excellent customer service!",
+        "PlecoDelivery has revolutionized how I handle deliveries for my online store. Fast, reliable, and excellent customer service!",
     },
     {
       id: 2,
@@ -26,7 +26,7 @@ export const Testimonials: React.FC = () => {
       avatar: "👨‍🍳",
       rating: 5,
       comment:
-        "We use ParcelDrop for all our catering deliveries. The real-time tracking gives our customers peace of mind.",
+        "We use PlecoDelivery for all our catering deliveries. The real-time tracking gives our customers peace of mind.",
     },
     {
       id: 3,
@@ -53,7 +53,7 @@ export const Testimonials: React.FC = () => {
       avatar: "👩‍🎨",
       rating: 5,
       comment:
-        "Last-minute event supplies? No problem! ParcelDrop always comes through when we need them most.",
+        "Last-minute event supplies? No problem! PlecoDelivery always comes through when we need them most.",
     },
     {
       id: 6,
@@ -62,7 +62,7 @@ export const Testimonials: React.FC = () => {
       avatar: "👨‍🚀",
       rating: 5,
       comment:
-        "As a startup, we needed reliable logistics. ParcelDrop scales with us and keeps costs predictable.",
+        "As a startup, we needed reliable logistics. PlecoDelivery scales with us and keeps costs predictable.",
     },
   ];
 
@@ -106,7 +106,7 @@ export const Testimonials: React.FC = () => {
             className="text-xl text-gray-600 max-w-3xl mx-auto"
           >
             Don't just take our word for it. Here's what our satisfied customers
-            have to say about their ParcelDrop experience.
+            have to say about their PlecoDelivery experience.
           </motion.p>
         </motion.div>
 

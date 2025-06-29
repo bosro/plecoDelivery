@@ -79,7 +79,7 @@ export const About: React.FC = () => {
             transition={{ duration: 0.6 }}
           >
             <h1 className="text-4xl md:text-6xl font-bold mb-6">
-              About <span className="bg-gradient-to-r from-yellow-400 to-orange-500 bg-clip-text text-transparent">ParcelDrop</span>
+              About <span className="bg-gradient-to-r from-yellow-400 to-orange-500 bg-clip-text text-transparent">PlecoDelivery</span>
             </h1>
             <p className="text-xl md:text-2xl text-white/90 max-w-3xl mx-auto leading-relaxed">
               We're revolutionizing package delivery with technology, speed, and care. 
@@ -126,7 +126,7 @@ export const About: React.FC = () => {
                 Our Mission
               </h2>
               <p className="text-lg text-gray-600 mb-6 leading-relaxed">
-                At ParcelDrop, we believe that fast, reliable delivery should be accessible to everyone. 
+                At PlecoDelivery, we believe that fast, reliable delivery should be accessible to everyone. 
                 We're building the future of logistics, one package at a time.
               </p>
               <p className="text-lg text-gray-600 leading-relaxed">
@@ -165,7 +165,7 @@ export const About: React.FC = () => {
               Our Values
             </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              These core values guide everything we do at ParcelDrop
+              These core values guide everything we do at PlecoDelivery
             </p>
           </motion.div>
 
@@ -208,7 +208,7 @@ export const About: React.FC = () => {
               Meet Our Team
             </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              The passionate people behind ParcelDrop's success
+              The passionate people behind PlecoDelivery's success
             </p>
           </motion.div>
 

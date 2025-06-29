@@ -30,7 +30,7 @@ export const UserTypeSelection: React.FC<UserTypeSelectionProps> = ({
     <div className="space-y-6">
       <div className="text-center mb-8">
         <h3 className="text-2xl font-bold text-gray-900 mb-2">
-          How do you want to use ParcelDrop?
+          How do you want to use PlecoDelivery?
         </h3>
         <p className="text-gray-600">
           Choose your account type to get started

@@ -50,7 +50,7 @@ export const HowItWorks: React.FC = () => {
           className="text-center mb-16"
         >
           <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
-            How <span className="gradient-text">ParcelDrop</span> Works
+            How <span className="gradient-text">PlecoDelivery</span> Works
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
             Getting your packages delivered is simple and straightforward. 

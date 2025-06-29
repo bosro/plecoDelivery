@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { motion } from 'framer-motion';
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline';
 import { Button } from './Button';
+import logo from '../../assets/images/logo.jpeg'
 
 interface HeaderProps {
   onLoginClick: () => void;
@@ -46,10 +47,11 @@ export const Header: React.FC<HeaderProps> = ({ onLoginClick, onSignupClick }) =
             className="flex items-center space-x-2"
             whileHover={{ scale: 1.05 }}
           >
-            <div className="w-10 h-10 bg-primary-500 rounded-xl flex items-center justify-center">
-              <span className="text-white text-xl font-bold">📦</span>
+            <div className="w-10 h-10 rounded-xl flex items-center justify-center">
+              <span className=""><img src={logo} alt="logo" style={{width: '50px', height: '40px', borderRadius: '100px'}}/></span>
+              
             </div>
-            <span className="text-2xl font-bold gradient-text">ParcelDrop</span>
+            <span className="text-2xl font-bold gradient-text">PlecoDelivery</span>
           </motion.div>
 
           {/* Desktop Navigation */}

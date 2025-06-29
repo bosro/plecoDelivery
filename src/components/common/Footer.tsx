@@ -6,6 +6,7 @@ import {
   EnvelopeIcon,
   GlobeAltIcon 
 } from '@heroicons/react/24/outline';
+import logo from '../../assets/images/logo.jpeg'
 
 export const Footer: React.FC = () => {
   const footerLinks = {
@@ -51,10 +52,15 @@ export const Footer: React.FC = () => {
                 viewport={{ once: true }}
               >
                 <div className="flex items-center space-x-2 mb-6">
-                  <div className="w-10 h-10 bg-primary-500 rounded-xl flex items-center justify-center">
+                  {/* <div className="w-10 h-10 bg-primary-500 rounded-xl flex items-center justify-center">
                     <span className="text-white text-xl font-bold">📦</span>
-                  </div>
-                  <span className="text-2xl font-bold">ParcelDrop</span>
+                    
+                  </div> */}
+                  <div className="w-10 h-10 rounded-xl flex items-center justify-center">
+              <span className=""><img src={logo} alt="logo" style={{width: '50px', height: '40px', borderRadius: '100px'}}/></span>
+              
+            </div>
+                  <span className="text-2xl font-bold">PlecoDelivery</span>
                 </div>
                 
                 <p className="text-gray-300 mb-6 leading-relaxed">
@@ -74,7 +80,7 @@ export const Footer: React.FC = () => {
                   </div>
                   <div className="flex items-center space-x-3 text-gray-300">
                     <EnvelopeIcon className="w-5 h-5 text-primary-500" />
-                    <span>support@parceldrop.com</span>
+                    <span>support@PlecoDelivery.com</span>
                   </div>
                 </div>
               </motion.div>
@@ -113,7 +119,7 @@ export const Footer: React.FC = () => {
         <div className="border-t border-gray-800 py-8">
           <div className="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
             <div className="text-gray-400 text-sm">
-              © 2025 ParcelDrop. All rights reserved.
+              © 2025 PlecoDelivery. All rights reserved.
             </div>
             
             {/* Social Links */}

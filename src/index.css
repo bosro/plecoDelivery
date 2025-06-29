@@ -27,6 +27,120 @@
   }
   
   .gradient-text {
+    @apply bg-gradient-to-r from-primary-500 to-accent-500 bg-clip-text text-transparent;
+  }
+  
+  .section-padding {
+    @apply py-16 md:py-24 lg:py-32;
+  }
+  
+  .container-custom {
+    @apply container mx-auto px-4 sm:px-6 lg:px-8;
+  }
+}
+
+/* Updated Theme with Your Color Palette */
+@theme {
+  /* Primary Color - Blue (#007AFF) */
+  --color-primary-50: #e6f3ff;
+  --color-primary-100: #b3d9ff;
+  --color-primary-200: #80bfff;
+  --color-primary-300: #4da6ff;
+  --color-primary-400: #1a8cff;
+  --color-primary-500: #007AFF;
+  --color-primary-600: #0066e6;
+  --color-primary-700: #0052cc;
+  --color-primary-800: #003d99;
+  --color-primary-900: #002966;
+  
+  /* Secondary/Gray Colors */
+  --color-secondary-50: #f8f8f8;
+  --color-secondary-100: #f0f0f0;
+  --color-secondary-200: #e8e8e8;
+  --color-secondary-300: #d0d0d0;
+  --color-secondary-400: #a8a8a8;
+  --color-secondary-500: #6F6F70;
+  --color-secondary-600: #5a5a5b;
+  --color-secondary-700: #454546;
+  --color-secondary-800: #232324;
+  --color-secondary-900: #171717;
+  
+  /* Accent Color - Mint Green (#33FFB8) */
+  --color-accent-50: #e6fff5;
+  --color-accent-100: #b3ffe0;
+  --color-accent-200: #80ffcc;
+  --color-accent-300: #4dffb8;
+  --color-accent-400: #1affa3;
+  --color-accent-500: #33FFB8;
+  --color-accent-600: #00e699;
+  --color-accent-700: #00cc85;
+  --color-accent-800: #00b372;
+  --color-accent-900: #00995e;
+  
+  /* Success Color - Using Mint Green */
+  --color-success-50: #e6fff5;
+  --color-success-100: #b3ffe0;
+  --color-success-200: #80ffcc;
+  --color-success-300: #4dffb8;
+  --color-success-400: #1affa3;
+  --color-success-500: #33FFB8;
+  --color-success-600: #00e699;
+  --color-success-700: #00cc85;
+  --color-success-800: #00b372;
+  --color-success-900: #00995e;
+  
+  /* Error/Warning Color - Coral (#FF5E5E) */
+  --color-error-50: #ffe6e6;
+  --color-error-100: #ffb3b3;
+  --color-error-200: #ff8080;
+  --color-error-300: #ff4d4d;
+  --color-error-400: #ff1a1a;
+  --color-error-500: #FF5E5E;
+  --color-error-600: #e60000;
+  --color-error-700: #cc0000;
+  --color-error-800: #b30000;
+  --color-error-900: #990000;
+  
+  /* Font Families */
+  --font-family-sans: Inter, system-ui, sans-serif;
+  --font-family-display: Cal Sans, Inter, system-ui, sans-serif;
+  
+  /* Custom Spacing and Effects */
+  --shadow-custom: 0 10px 25px -3px rgba(0, 122, 255, 0.1), 0 4px 6px -2px rgba(0, 122, 255, 0.05);
+  --shadow-custom-lg: 0 25px 50px -12px rgba(0, 122, 255, 0.25);
+}
+
+
+/* @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap');
+@import "tailwindcss";
+
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    font-family: 'Inter', system-ui, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+}
+
+@layer components {
+  .btn-primary {
+    @apply bg-primary-500 hover:bg-primary-600 text-white font-semibold py-3 px-6 rounded-lg transition-all duration-200 transform hover:scale-105 shadow-lg hover:shadow-xl;
+  }
+  
+  .btn-secondary {
+    @apply bg-white hover:bg-gray-50 text-primary-500 font-semibold py-3 px-6 rounded-lg border-2 border-primary-500 transition-all duration-200 transform hover:scale-105;
+  }
+  
+  .glass-effect {
+    @apply bg-white/10 backdrop-blur-md border border-white/20;
+  }
+  
+  .gradient-text {
     @apply bg-gradient-to-r from-primary-500 to-blue-600 bg-clip-text text-transparent;
   }
   
@@ -39,7 +153,6 @@
   }
 }
 
-/* Configure your theme in CSS (v4.0 way) */
 @theme {
   --color-primary-50: #eff6ff;
   --color-primary-100: #dbeafe;
@@ -76,4 +189,4 @@
   
   --font-family-sans: Inter, system-ui, sans-serif;
   --font-family-display: Cal Sans, Inter, system-ui, sans-serif;
-}
+} */

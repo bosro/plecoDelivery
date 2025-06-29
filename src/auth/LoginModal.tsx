@@ -61,7 +61,7 @@ export const LoginModal: React.FC<LoginModalProps> = ({
           Welcome Back
         </h3>
         <p className="text-gray-600">
-          Sign in to your ParcelDrop account
+          Sign in to your PlecoDelivery account
         </p>
       </div>
 

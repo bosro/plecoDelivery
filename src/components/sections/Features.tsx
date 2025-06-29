@@ -60,7 +60,7 @@ export const Features: React.FC = () => {
           className="text-center mb-16"
         >
           <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
-            Why Choose <span className="gradient-text">ParcelDrop</span>?
+            Why Choose <span className="gradient-text">PlecoDelivery</span>?
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
             Experience the future of package delivery with our cutting-edge features 
